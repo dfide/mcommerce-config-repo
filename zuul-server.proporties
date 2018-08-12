@@ -3,10 +3,10 @@ server.port 9004
 #Eureka
 eureka.client.serviceUrl.defaultZone: http://localhost:9102/eureka/
 
-#https://github.com/spring-cloud/spring-cloud-netflix/issues/1305
-#ranesaci commented on 25 Feb
-#Eureka server
-eureka.client.register-with-eureka=false
-eureka.client.fetch-registry=false
-logging.level.com.netflix.eureka=OFF
-logging.level.com.netflix.discovery=OFF
+##https://github.com/spring-cloud/spring-cloud-netflix/issues/1305
+##ranesaci commented on 25 Feb
+##Eureka server
+#eureka.client.register-with-eureka=false
+#eureka.client.fetch-registry=false
+#logging.level.com.netflix.eureka=OFF
+#logging.level.com.netflix.discovery=OFF
